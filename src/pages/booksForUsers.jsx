@@ -95,7 +95,7 @@ export default function BooksForUsers() {
       return;
     }
     window.open(
-      `http://127.0.0.1:5000${book.bookPdf}`,
+      `https://book-store-api-1t03.onrender.com${book.bookPdf}`,
       "_blank",
       "noopener , noreferrer",
     );
