@@ -88,7 +88,7 @@ export default function AllUsers() {
         <div className="grid">
           {users.map((user) => (
             <div className="card" key={user._id} value={user._id}>
-              <img src={`http://localhost:5173/avatar.jpg`}></img>
+              <img src="/avatar.jpg"></img>
               <h2>Name: {user.username}</h2>
               <h3>Email: {user.email}</h3>
               <h3>Cerated At: {new Date(user.createdAt).toLocaleString()}</h3>

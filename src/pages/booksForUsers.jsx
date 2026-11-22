@@ -109,7 +109,7 @@ export default function BooksForUsers() {
           {books.map((book) => (
             <div className="card" key={book._id}>
               <img
-                src={`http://127.0.0.1:5000${book.image}`}
+                src={`https://book-store-api-1t03.onrender.com${book.image}`}
                 className="w-[90%] lg:w-full h-100 rounded-lg"
                 alt={book.title}
               ></img>

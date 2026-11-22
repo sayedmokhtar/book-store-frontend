@@ -94,7 +94,7 @@ export default function Authors() {
           {authors.map((author) => (
             <div className="card" key={author._id}>
               <img
-                src={`http://localhost:5173/avatar.jpg`}
+                src="/avatar.jpg"
                 alt="author-img"
                 className="w-full h-100 rounded-lg"
               ></img>

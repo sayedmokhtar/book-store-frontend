@@ -64,7 +64,7 @@ body {
     @apply w-full mt-10 flex flex-col gap-5;
   }
   .grid {
-    @apply grid w-full grid-cols-1 md:grid-cols-2 lg:grid-cols-4 lg:w-[90%] lg:ml-[10%] gap-5;
+    @apply grid w-full grid-cols-1 md:grid-cols-2 lg:grid-cols-4 lg:w-[90%] lg:ml-[5%] gap-5;
   }
   .card {
     @apply min-w-0 flex flex-col items-center gap-2 rounded-lg;

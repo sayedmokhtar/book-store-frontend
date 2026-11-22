@@ -161,7 +161,7 @@ export default function RemoveUser() {
           {users.map((user) => (
             <div className="card">
               <img
-                src={`http://localhost:5173/avatar.jpg`}
+                src="/avatar.jpg"
                 alt="user-img"
                 className="w-full h-100 rounded-lg"
               ></img>

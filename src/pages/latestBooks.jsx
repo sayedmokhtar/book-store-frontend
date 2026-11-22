@@ -36,7 +36,7 @@ export default function LatestBooks() {
           {Books.map((Book) => (
             <div className="card" key={Book._id}>
               <img
-                src={`http://127.0.0.1:5000${Book.image}`}
+                src={`https://book-store-api-1t03.onrender.com${Book.image}`}
                 alt={Book.title}
                 className="w-full h-100 rounded-lg"
               ></img>
