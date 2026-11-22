@@ -89,7 +89,7 @@ export default function AuthorsForUsers() {
           {authors.map((author) => (
             <div className="card">
               <img
-                src={`https://book-store-api-1t03.onrender.com${author.image}`}
+                src="/avatar.jpg"
                 alt={author.name}
                 className="w-[90] ml-[5%] h-100 rounded-lg lg:w-full"
               ></img>
