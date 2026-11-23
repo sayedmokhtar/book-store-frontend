@@ -88,7 +88,7 @@ export default function LoginPage() {
             and personal development. Whether you're looking to learn a new
             skill, explore a fascinating story, or expand your knowledge
           </p>
-          <div className="hidden lg:flex gap-2 ml-10 mb-10 lg:w-full h-auto rounded-lg">
+          <div className=" lg:flex gap-2 ml-10 mb-10 lg:w-full h-auto rounded-lg">
             <video
               src="/earthtoland.mp4"
               muted
@@ -100,7 +100,7 @@ export default function LoginPage() {
         </div>
         {/* ========================= content =============================== */}
         {/* form login */}
-        <div className="w-[80%] p-2 flex flex-col lg:w-1/2 lg:mt-30 lg:flex lg:flex-col justify-center items-center animate-slide-in">
+        <div className="w-[100%] p-2 flex flex-col lg:w-1/2 lg:mt-30 lg:flex lg:flex-col justify-center items-center animate-slide-in">
           <form onSubmit={handleSubmit}>
             <h2 className="mb-8 text-md font-body font-extrabold">Login</h2>
             <TextField
@@ -169,7 +169,7 @@ export default function LoginPage() {
               <img
                 src="/preve.avif"
                 alt="img"
-                className=" hidden lg:block lg:size-20 lg:ml-8 lg:rounded-full xl:ml-25"
+                className="hidden lg:size-20 lg:ml-8 lg:rounded-full xl:ml-25"
               />
             </div>
             {/*===== buttons ========= */}
