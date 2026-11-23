@@ -161,7 +161,7 @@ export default function LoginPage() {
                 className="link-button"
                 onClick={() => {
                   window.location.href =
-                    "http://localhost:5000/api/password/forgot-password";
+                    "https://book-store-api-1t03.onrender.com/api/password/forgot-password";
                 }}
               >
                 Reset Password ?
