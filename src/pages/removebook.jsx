@@ -166,7 +166,7 @@ export default function RemoveBook() {
           {books.map((book) => (
             <div className="card" key={book._id}>
               <img
-                src={`https://book-store-api-1t03.onrender.com${book.image}`}
+                src={book.image}
                 alt="book-img"
                 className="w-full h-100 rounded-lg"
               ></img>

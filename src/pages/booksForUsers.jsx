@@ -94,11 +94,7 @@ export default function BooksForUsers() {
       setServerError("PDF is not available");
       return;
     }
-    window.open(
-      `https://book-store-api-1t03.onrender.com${book.bookPdf}`,
-      "_blank",
-      "noopener , noreferrer",
-    );
+    window.open(book.bookPdf, "_blank", "noopener , noreferrer");
   }
 
   return (
@@ -109,7 +105,7 @@ export default function BooksForUsers() {
           {books.map((book) => (
             <div className="card" key={book._id}>
               <img
-                src={`https://book-store-api-1t03.onrender.com${book.image}`}
+                src={book.image}
                 className="w-[90%] lg:w-full h-100 rounded-lg"
                 alt={book.title}
               ></img>

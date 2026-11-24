@@ -36,11 +36,7 @@ export default function Home() {
       setServerError("PDF is not available");
       return;
     }
-    window.open(
-      `https://book-store-api-1t03.onrender.com${book.bookPdf}`,
-      "_blank",
-      "noopener , noreferrer",
-    );
+    window.open(book.bookPdf, "_blank", "noopener , noreferrer");
   }
   return (
     <>
@@ -53,7 +49,7 @@ export default function Home() {
           {books.map((book) => (
             <div className="card" key={book._id}>
               <img
-                src={`https://book-store-api-1t03.onrender.com${book.image}`}
+                src={book.image}
                 alt={book.title}
                 className="w-[90%] lg:w-full h-100 rounded-lg"
               ></img>

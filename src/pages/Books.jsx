@@ -98,7 +98,7 @@ export default function Books() {
               value={book._id}
             >
               <img
-                src={`https://book-store-api-1t03.onrender.com${book.image}`}
+                src={book.image}
                 alt={book.title}
                 className="w-full h-100 rounded-lg"
               ></img>

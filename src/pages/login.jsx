@@ -93,6 +93,7 @@ export default function LoginPage() {
               src="/earthtoland.mp4"
               muted
               autoPlay
+              playsInline
               loop
               className="w-[90%] border-2 border-purple-500 rounded-2xl shadow-lg shadow-blue-200 "
             ></video>
