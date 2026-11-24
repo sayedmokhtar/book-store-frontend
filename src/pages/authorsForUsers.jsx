@@ -91,7 +91,7 @@ export default function AuthorsForUsers() {
               <img
                 src="/avatar.jpg"
                 alt={author.name}
-                className="w-[90] ml-[5%] h-100 rounded-lg lg:w-full"
+                className="w-[90%] ml-[5%] h-100 rounded-lg lg:w-full"
               ></img>
               <h2 className="text-sm font-body pl-2 font-medium lg:text-lg">
                 Name: {author.name}
