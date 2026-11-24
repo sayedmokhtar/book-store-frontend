@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://book-store-api-1t03.onrender.com/api/:path*"
+    },
+    {
+      "source": "/images/:path*",
+      "destination": "https://book-store-api-1t03.onrender.com/images/:path*"
+    },
+    {
+      "source": "/pdfs/:path*",
+      "destination": "https://book-store-api-1t03.onrender.com/pdfs/:path*"
+    }
+  ]
+}
