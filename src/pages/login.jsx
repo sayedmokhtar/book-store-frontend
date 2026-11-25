@@ -138,7 +138,7 @@ export default function LoginPage() {
             </button>
             {/* buttons */}
             <div className="w-full p-25 gap-2 flex flex-col mt-2 lg:w-full">
-              <p className="text-xs font-body font-bold text-red-700">
+              <p className="text-xs font-body font-bold text-white">
                 {invaildInput.emailInput} {invaildInput.passwordInput}
                 {serverError}
               </p>

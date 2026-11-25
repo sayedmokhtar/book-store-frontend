@@ -91,7 +91,7 @@ export default function CreateAccount() {
           <h2 className="text-lg font-title font-bold text-cnter py-4">
             Create Your Account
           </h2>
-          <span className="text-sm text-red-500 font-bold font-body lg:text-lg ">
+          <span className="text-sm text-white font-bold font-body lg:text-lg ">
             {invalidInput.userNmae} {invalidInput.email} {invalidInput.password}
             {serverError}
           </span>
